@@ -26,3 +26,9 @@ cd Python-3.9.11
 ./configure --enable-optimizations --with-ensurepip=install
 
 make -j 8
+
+sudo make altinstall
+
+python3.9 --version
+
+python3.9 -m test
